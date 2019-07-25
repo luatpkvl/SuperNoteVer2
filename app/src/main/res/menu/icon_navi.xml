@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group>
+        <item android:id="@+id/it_hoso"
+            android:title="Hồ sơ của tôi"
+            android:icon="@drawable/ic_person"/>
+        <item android:id="@+id/it_setting"
+            android:title="Cài đặt"
+            android:icon="@drawable/ic_settings"/>
+        <item android:id="@+id/it_invite_friend"
+            android:title="Mời bạn bè"
+            android:icon="@drawable/ic_person_add"/>
+        <item android:id="@+id/it_help"
+            android:title="Trợ giúp và phản hồi"
+            android:icon="@drawable/ic_help"/>
+        <item android:id="@+id/it_logout"
+            android:title="Đăng xuất"
+            android:icon="@drawable/ic_logout"/>
+        <item android:id="@+id/it_login"
+            android:title="Đăng nhập"
+            android:visible="false"/>
+    </group>
+</menu>

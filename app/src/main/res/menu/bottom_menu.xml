@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/it_book"
+            android:title="Sách"
+            android:icon="@drawable/ic_book_black_24dp"/>
+        <item android:id="@+id/it_nut2"
+            android:title="Notify"
+            android:icon="@drawable/ic_notifications_black_24dp"/>
+        <item android:id="@+id/it_nut3"
+            android:title="Chat"
+            android:icon="@drawable/ic_chat_black_24dp"/>
+        <item android:id="@+id/it_nut4"
+            android:title="Danh bạ"
+            android:icon="@drawable/ic_contact_phone_black_24dp"/>
+</menu>

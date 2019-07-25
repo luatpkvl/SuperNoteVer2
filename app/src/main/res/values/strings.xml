@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SuperNote</string>
+    <string name="open_draw">Open draw</string>
+    <string name="close_draw">Close draw</string>
+</resources>

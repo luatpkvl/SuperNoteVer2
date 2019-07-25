@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtname_socket"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_send_name"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/edtname_socket"
+        android:layout_height="wrap_content"
+        android:text="SEND NAME"/>
+    <EditText
+        android:id="@+id/edt_content_chat"
+        android:layout_below="@id/btn_send_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/btn_send_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/btn_send_name"
+        android:layout_toRightOf="@id/edtname_socket"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:visibility="gone"/>
+    <ListView
+        android:id="@+id/simple_list"
+        android:layout_below="@id/btn_send_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+</RelativeLayout>
